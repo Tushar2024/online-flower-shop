@@ -1,0 +1,65 @@
+/* common styles  */
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.btn-primary{
+   border-radius: 8px;
+   background-color:  #E55473;
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 700;
+   padding: 20px 43px;
+   border: none;
+}
+
+/* header related styles  */
+.header{
+    background-color:  rgba(229, 84, 115, 0.10);
+    max-width: 1920px;
+    max-height: 850px;
+    background-image: url('../images/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 40%;
+    padding: 50px 240px 0px 180px;
+    
+}
+.header-container{
+    /* margin: 190px 0px 140px 240px; */
+    padding-bottom: 140px;
+    padding-right: 20px;
+    margin: 140px 300px 0px 0px;
+}
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.header-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* main related styles  */
+.main{
+    margin-top: 178px;
+    margin-bottom: 130px;
+}
+/* flowers featured section related styles */
+.flowers-featured{
+    text-align: center;
+}
+.featured-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
