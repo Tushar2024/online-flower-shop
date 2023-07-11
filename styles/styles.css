@@ -55,13 +55,13 @@
 
 /* main related styles  */
 .main{
-    margin-top: 178px;
-    margin-bottom: 130px;
+    margin-top: 150px;
+    margin-bottom: 80px;
 }
 /* flowers featured section related styles */
 .flowers-featured{
     text-align: center;
-    margin: 170px 240px 120px 240px;
+    margin: 0px 240px 120px 240px;
 }
 
 .featured-details{
@@ -129,7 +129,7 @@
 
 .instagram{
      text-align: center;
-     margin: 128px 185px;
+     margin: 120px 170px 80px;
 }
 .instagram-details{
     color: rgba(39, 39, 39, 0.60);
@@ -154,10 +154,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    margin: 0px 160px 128px 200px;
+    margin: 0px 160px 0px 200px;
     text-align: center;
     border-radius: 8px;
-    padding: 130px 200px 150px;    
+    padding: 150px 200px 150px;    
 }
 .subscribe-details{
     color: rgba(39, 39, 39, 0.60);
@@ -171,6 +171,31 @@
     width: 400px;
     height: 35px;
     border: none;
+    font-size: 18px;
     padding: 10px 20px;
     margin-top: 0px;
+}
+
+/* Footer Related Styles  */
+.footer{
+    text-align: center;
+    background-color: #111010;
+    padding: 80px 380px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.footer-details{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.footer-copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    margin-top: 50px;
 }
