@@ -10,7 +10,7 @@
    color: #FFF;
    font-size: 20px;
    font-weight: 700;
-   padding: 20px 43px;
+   padding: 15px 30px;
    border: none;
 }
 .text-color{
@@ -150,5 +150,27 @@
 /* Leatest Deals Related Styles */
 
 .subscribe{
-    margin: 0px 240px 128px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0px 160px 128px 200px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 130px 200px 150px;    
+}
+.subscribe-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.input-email{
+    border-radius: 8px;
+    background-color: #FFF;
+    width: 400px;
+    height: 35px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 0px;
 }
