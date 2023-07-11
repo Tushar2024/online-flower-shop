@@ -13,7 +13,15 @@
    padding: 20px 43px;
    border: none;
 }
-
+.text-color{
+    color: #E55473;
+}
+.primary-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
 /* header related styles  */
 .header{
     background-color:  rgba(229, 84, 115, 0.10);
@@ -55,17 +63,12 @@
     text-align: center;
     margin: 170px 240px 120px 240px;
 }
-.featured-title{
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-}
+
 .featured-details{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     margin-bottom: 48px;
-    margin-top: 0px;
+    margin-top: 24px;
 }
 .featured-image-container{
     display: flex;
@@ -100,16 +103,52 @@
 .hot-deals{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    text-align: center;
     gap: 100px;
     height: 500px;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 90px 200px 100px 240px;
+    padding: 60px 200px 100px 240px;
     
 }
+
+.hot-deals-details{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+}
 .hot-deals-image{
-    width: 280px;
+    width: 250px;
     height: 350px;
-    /* margin: 200px; */
+    }
+
+/* Instagram Section Related Styles  */
+
+.instagram{
+     text-align: center;
+     margin: 128px 185px;
+}
+.instagram-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.instagram-images{
+    display: flex;
+    gap: 24px;
+    
+}
+.flowers-image > img{
+    width: 242px;
+    height: 296px;
+}
+
+/* Leatest Deals Related Styles */
+
+.subscribe{
+    margin: 0px 240px 128px;
 }
