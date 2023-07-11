@@ -22,6 +22,7 @@
     font-size: 40px;
     font-weight: 800;
 }
+
 /* header related styles  */
 .header{
     background-color:  rgba(229, 84, 115, 0.10);
@@ -32,7 +33,6 @@
     background-position: bottom right;
     background-size: 40%;
     padding: 30px 240px 0px 120px;
-    
 }
 .header-container{
     
@@ -58,12 +58,12 @@
     margin-top: 150px;
     margin-bottom: 80px;
 }
+
 /* flowers featured section related styles */
 .flowers-featured{
     text-align: center;
     margin: 0px 240px 120px 240px;
 }
-
 .featured-details{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -81,8 +81,7 @@
     height: 260px;
     background-color: rgba(167, 33, 98, 0.15);
     padding: 80px 70px 0px;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;  
 }
 .flowers img{
     width: 160px;
@@ -109,9 +108,7 @@
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     padding: 60px 200px 100px 240px;
-    
 }
-
 .hot-deals-details{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -124,6 +121,29 @@
     width: 250px;
     height: 350px;
     }
+
+/* flowers arrangements related styles */
+
+.flowers-arrangement{
+    margin: 120px 120px;
+    text-align: center;
+}
+.arrangement-container{
+     display: flex;
+     gap: 24px;
+     
+}
+.arrangement{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+    padding-bottom: 30px;
+}
+.arrangement img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
 
 /* Instagram Section Related Styles  */
 
@@ -147,7 +167,7 @@
     height: 296px;
 }
 
-/* Leatest Deals Related Styles */
+/* Latest Deals Related Styles */
 
 .subscribe{
     background-image: url('../images/Rectangle\ 9.png');
