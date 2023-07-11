@@ -24,6 +24,7 @@
 }
 
 /* header related styles  */
+
 .header{
     background-color:  rgba(229, 84, 115, 0.10);
     max-width: 1920px;
@@ -35,7 +36,6 @@
     padding: 30px 240px 0px 120px;
 }
 .header-container{
-    
     padding-bottom: 140px;
     padding-right: 20px;
     margin: 100px 350px 0px 10px;
@@ -54,12 +54,14 @@
 }
 
 /* main related styles  */
+
 .main{
     margin-top: 150px;
     margin-bottom: 80px;
 }
 
 /* flowers featured section related styles */
+
 .flowers-featured{
     text-align: center;
     margin: 0px 240px 120px 240px;
@@ -115,7 +117,6 @@
     font-size: 18px;
     margin-top: 24px;
     margin-bottom: 32px;
-
 }
 .hot-deals-image{
     width: 250px;
@@ -125,13 +126,12 @@
 /* flowers arrangements related styles */
 
 .flowers-arrangement{
-    margin: 120px 120px;
+    margin: 130px 120px;
     text-align: center;
 }
 .arrangement-container{
      display: flex;
-     gap: 24px;
-     
+     gap: 24px;   
 }
 .arrangement{
     padding: 10px;
@@ -159,8 +159,7 @@
 }
 .instagram-images{
     display: flex;
-    gap: 24px;
-    
+    gap: 24px;  
 }
 .flowers-image > img{
     width: 242px;
@@ -197,6 +196,7 @@
 }
 
 /* Footer Related Styles  */
+
 .footer{
     text-align: center;
     background-color: #111010;
@@ -219,3 +219,5 @@
     font-size: 16px;
     margin-top: 50px;
 }
+
+/* CSS Styles End ***Thank You*** */
